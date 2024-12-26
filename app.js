@@ -73,5 +73,6 @@ app.delete('/movimento/:id', async (req, res) => {
 //   console.log(`Server is running at http://${host}:${port}`);
 // }); 
 app.listen({
-  port: process.env.PORT
+  host: '0.0.0.0',
+  port: process.env.PORT ?? 3000,
 });
