@@ -2,5 +2,5 @@
   "watch": ["./app.js", "./db.postgres.js", "./connect.js"],
   "ext": "js,json",
   "ignore": ["node_modules", "*.log"],
-  "exec": "kill-port 3000 && node app.js"
+  "exec": "node app.js"
 }

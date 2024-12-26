@@ -10,13 +10,11 @@
     },
     "dependencies": {
         "@neondatabase/serverless": "^0.10.4",
-        "dotenv": "^16.0.3",
+        "dotenv": "^16.4.7",
         "express": "^4.17.1",
         "postgres": "^3.4.5"
     },
     "devDependencies": {
-        "dotenv": "^16.4.7",
-        "kill-port": "^2.0.1",
         "nodemon": "^2.0.22"
     },
     "author": "",

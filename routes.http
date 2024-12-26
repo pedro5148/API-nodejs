@@ -10,7 +10,7 @@ Content-Type: application/json
 
 ###
 
-GET https://api-nodejs.fly.dev:3000/movimentos
+GET http://localhost:3000/movimentos
 
 ###
 PUT http://localhost:3000/movimento/9b6febbc-66e9-49de-b218-1007cdd6b382
