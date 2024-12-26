@@ -1,0 +1,27 @@
+POST http://localhost:3000/movimentos
+Content-Type: application/json
+
+{
+    "origem": "13 salario",
+    "tipo": "receita",
+    "data": "05/12/2024",
+    "valor": 750
+}
+
+###
+
+GET http://localhost:3000/movimentos
+
+###
+PUT http://localhost:3000/movimento/9b6febbc-66e9-49de-b218-1007cdd6b382
+Content-Type: application/json
+
+{
+    "origem": "13 salario",
+    "tipo": "receita",
+    "data": "05/12/2024",
+    "valor": 753
+}
+
+###
+DELETE http://localhost:3000/movimento/4a3eb2ab-a1f3-4127-8350-8e12b32b537e
