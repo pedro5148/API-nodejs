@@ -1,5 +1,6 @@
 import express from 'express'
 import { sql } from './connect.js'
+import 'dotenv/config'
 // import { DatabaseMemory  } from './db.memory.js';
 import { DatabasePostgres } from './db.postgres.js';
 
@@ -68,6 +69,9 @@ app.delete('/movimento/:id', async (req, res) => {
 })
 
 // Iniciar o servidor
-app.listen(port, () => {
-  console.log(`Server is running at http://${host}:${port}`);
-}); 
+// app.listen(port, () => {
+//   console.log(`Server is running at http://${host}:${port}`);
+// }); 
+app.listen({
+  port: process.env.PORT
+});
