@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for api-nodejs on 2024-12-27T02:19:42Z
+# fly.toml app configuration file generated for src-twilight-glitter-4202 on 2024-12-26T23:38:49-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'api-nodejs'
-primary_region = 'gru'
+primary_region = 'gig'
 
 [build]
 
@@ -20,4 +20,3 @@ primary_region = 'gru'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 1024
