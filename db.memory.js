@@ -1,3 +1,5 @@
+// Usado apenas para simular o armazenamento das infor durante os testes
+
 import { randomUUID } from "node:crypto"
 
 export class DatabaseMemory {
