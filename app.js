@@ -12,7 +12,7 @@ const dbpg = new DatabasePostgres()
 
 // Rota principal
 app.get('/', (req, res) => {
-  res.send('Tudo okkkk!');
+  res.send('Tudo ok!');
 });
 
 app.get('/movimentos', async (req, res) => {
